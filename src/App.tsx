@@ -3,13 +3,14 @@ import { CartProvider } from './contexts/CartContext';
 import { WishlistProvider } from './contexts/WishlistContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import FeaturedCollections from './components/FeaturedCollections';
+import CategoriesCarousel from './components/CategoriesCarousel';
 import ProductGrid from './components/ProductGrid';
 import BrandStory from './components/BrandStory';
 import WhatsAppCTA from './components/WhatsAppCTA';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import WhatsAppFloating from './components/WhatsAppFloating';
+import WhatsAppChannelPopup from './components/WhatsAppChannelPopup';
 import CartDrawer from './components/CartDrawer';
 import WishlistDrawer from './components/WishlistDrawer';
 
@@ -49,7 +50,7 @@ function App() {
           {showHero && (
             <>
               <Hero onShopClick={handleCategoryChange} />
-              <FeaturedCollections onCollectionClick={handleCategoryChange} />
+              <CategoriesCarousel onCategoryClick={handleCategoryChange} />
               <BrandStory />
             </>
           )}
@@ -65,6 +66,7 @@ function App() {
 
           <Footer />
           <WhatsAppFloating />
+          <WhatsAppChannelPopup />
 
           <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
           <WishlistDrawer isOpen={isWishlistOpen} onClose={() => setIsWishlistOpen(false)} />

@@ -8,19 +8,19 @@ export default function FeaturedCollections({ onCollectionClick }: FeaturedColle
       title: 'Men\'s Collection',
       subtitle: 'Polo, Blazers & Suits',
       category: 'men',
-      image: 'https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.postimg.cc/prHkRFTz/download-(10).jpg',
     },
     {
       title: 'Women\'s Collection',
       subtitle: 'Dresses & Sweaters',
       category: 'women',
-      image: 'https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.postimg.cc/FR97vFv9/download-(11).jpg',
     },
     {
       title: 'Unisex Essentials',
       subtitle: 'For Everyone',
       category: 'unisex',
-      image: 'https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.postimg.cc/FR97vFv9/download-(11).jpg',
     },
   ];
 
